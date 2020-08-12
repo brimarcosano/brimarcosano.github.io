@@ -1,0 +1,122 @@
+html {
+    background-color: rgba(94, 110, 125, 0.8);
+    font-family: verdana;
+}
+
+#banner {
+    width: 100%;
+    height:420px;
+    object-fit: cover;
+    display: inline-block;
+}
+#banner2 {
+    width: 100%;
+    height:270px;
+    object-fit: cover;
+    display: inline-block;
+}
+
+#navbar {
+    width:100%;
+    padding-top:1px;
+    padding-bottom:1px;
+    background-color: rgba(1, 74, 143, .8);
+}
+
+ul {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    list-style:none;
+}
+
+a {
+    text-decoration: none;
+    font-family: brookline, verdana;
+    color: white;
+}
+a:hover {
+    color:#d1deed;
+
+}
+
+
+#aboutMe {
+    display: flex;
+    flex-direction:row;
+    padding:50px 150px;
+}
+
+#firstP {
+    padding-top:150px;
+    font-family: verdana;
+}
+
+.header {
+    align-items: center;
+    margin-left: 45%;
+    font-size: 40px;
+}
+
+#homepageMe {
+    display:inline-block;
+}
+
+.row {
+    display: flex;
+    padding: 15px 30px 15px 30px;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  .img {
+      width: 100%;
+      height: 100%;
+      object-fit:cover;
+      padding-top:50px;
+  }
+
+
+#flexform {
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+  }
+
+#contact {
+    color:rgba(0, 0, 0, .8);
+    text-align: center;
+}
+  #submit {
+    background-color:rgba(1, 74, 143, .8);
+    color:white;
+    border:none;
+    margin-top:20px;
+    padding:8px;
+    border-radius:6px;
+    align-items: center;
+   }
+   #submit:hover {
+    background-color:rgba(71, 134, 196, .8);
+  }
+
+  @viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  } 
+
+  @-ms-viewport {
+    width: device-width ;
+  } 
+
+  @media screen and (min-width:320px) and (max-width:640px) {
+    /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
+  } 
